@@ -1,0 +1,172 @@
+.about_nav{
+    background-color: #1E202B;
+}
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo h1{
+    font-size: 1.1428571429em;
+    color: white;
+    margin-bottom: 5px
+}
+.logo p{
+    font-size: 0.7142857143em;
+    color: #bfc1c8;
+}
+.nav-link{
+    
+    color: white;
+    padding: 5px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: 0.3s ease;
+    font-weight: 400;
+}
+.nav-link:hover{
+    border-color: #009ad8;
+    color: #009ad8;
+}
+
+
+
+
+main{
+    background-image:url(../img/banner.png);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.location{
+    position: relative;
+    /* margin-bottom: 70px; */
+}
+#search{
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+    border-radius: 30px;
+    border-color: transparent;
+}
+#submit{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+    border-radius: 30px;
+    border-color: transparent;
+    background-color: #009AD8;
+    color: white;
+    
+}
+#weather{
+    padding: 10px;
+}
+.forcast{
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #1E202B;
+    color: white;
+    height: 100%;
+    
+}
+#today .temp h2{
+    font-size: 6.4285714286rem;
+    margin-right: 30px;
+    font-weight: 700;
+    
+}
+#dayDate{
+    background-color: #2D303D;
+}
+#today{
+    background-color: #323544;
+}
+#today .city{
+    font-size: 1.2857142857em;
+    font-weight: 400;
+}
+#forecast_head{
+    background-color: #222530;
+}
+ #tomorrow{
+    background-color: #262936;
+    height: 100%;
+}
+#forecast_head2{
+    background-color: #2D303D;
+}
+#tomorrow2{
+    background-color: #323544;
+    height: 100%;
+}
+.status{
+    color: #007B8F;
+}
+.forcast .about_forcast , .forcast .content{
+    padding: 10px;
+}
+#forecast_head , #tomorrow , #tomorrow2 , #forecast_head2{
+    padding: 10px;
+}
+footer{
+    background: #262936;
+    padding: 50px;
+}
+.subscribe{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.sub_email{
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+    border-radius: 30px;
+    border-color: transparent;
+}
+.ok{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border-color: transparent;
+    background-color: #009AD8;
+    color: white;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social a{
+    margin: 2px;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    line-height: 2;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    font-size: 20px;
+}
+
+.Copyright{
+    color: #Bfc1c8;
+    font-size: 14px;
+    margin: 0 0 14px;
+}
+
+
+
+
+
